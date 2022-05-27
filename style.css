@@ -1,4 +1,4 @@
-/* ======================BASE======================== */
+
 body {
    background-color: #f8f8f8;
 }
@@ -16,7 +16,7 @@ input,button {
   outline: none;
 }
 
-/* ======================info======================== */
+
 .info {
   width: 500px;
   margin: 0 auto;
@@ -50,7 +50,7 @@ input,button {
 .add-todo__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-todo__body {
@@ -164,7 +164,7 @@ input,button {
 
 .edit-mode .edit-mode__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .todo-list__label {

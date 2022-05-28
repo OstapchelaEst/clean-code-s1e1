@@ -92,7 +92,7 @@ input,button {
   margin: 0 10px;
 }
 
-.add-todo .todo-list__label, h3 {
+.add-todo .todo-list__label, .todo-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;

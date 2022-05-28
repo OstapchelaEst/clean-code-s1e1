@@ -2,17 +2,8 @@ body {
    background-color: #f8f8f8;
 }
 
-ul {
-  margin: 0px;
-  padding: 0px;
-}
-
-li {
-  list-style: none;
-}
-
 input,button {
-  outline: none;
+
 }
 
 
@@ -50,6 +41,7 @@ input,button {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+  outline: none;
 }
 
 .add-todo__body {
@@ -72,6 +64,7 @@ input,button {
   width: 60px;
   font-family: "Lato", sans-serif;
   cursor: pointer;
+  outline: none;
 }
 
 .todo-list .todo-button.delete .close-btn-img {
@@ -145,6 +138,12 @@ input,button {
   width: 318px;
 }
 
+.completed-tasks,
+.incomplete-todo {
+  margin: 0px;
+  padding: 0px;   
+}
+
 .completed-tasks > *,
 .incomplete-todo > * {
   overflow: hidden;
@@ -154,6 +153,12 @@ input,button {
   justify-content: space-between;
   align-items: center;
   vertical-align: middle;
+  list-style: none;
+}
+
+.completed-tasks  *,
+.incomplete-todo  * {
+  outline: none;
 }
 
 .completed-tasks .todo-list__label {

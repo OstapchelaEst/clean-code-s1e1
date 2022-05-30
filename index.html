@@ -1,70 +1,70 @@
 <!DOCTYPE html>
-
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-   <link rel="stylesheet" href="../style/style.css">
-   <title>Todo App</title>
+<head>   
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+  <link rel="stylesheet" href="../style/style.css">
+  <title>Todo App</title>
 </head>
 
 <body class="body">
-   <section class="info">
-      <img src="../assets/eisenhower-matrix.jpg" alt="Pictyre matrix Eeisenhower" class="info__img">
-      <a class="info__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
-      </a>
-   </section>
+  <section class="info">
+    <img src="../assets/eisenhower-matrix.jpg" alt="Pictyre matrix Eeisenhower" class="info__img">
+    <a class="info__link" 
+       href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
+    </a>
+  </section>
 
-   <article class="todo-list">
-      <section class="add-todo">
-         <label for="add-todo__new-task" class="todo-list__label">Add Item</label>
-         <div class="add-todo__body">
-            <input type="text" id="add-todo__new-task" class="add-todo__input">
-            <button class="add-todo__add-button todo-button">Add</button>
-         </div>
-      </section>
+  <article class="todo-list">
+    <section class="add-todo">
+      <label for="add-todo__new-task" class="todo-list__label">Add Item</label>
+        <div class="add-todo__body">
+          <input type="text" id="add-todo__new-task" class="add-todo__input">
+          <button class="add-todo__add-button todo-button">Add</button>
+        </div>
+      </section>  
 
-      <h3 class="todo-title">Todo</h3>
+      <h3 class="todo-title">Todo</h3> 
 
       <ul class="incomplete-todo">
-         <li>
-            <input type="checkbox" class="complit-todo">
-            <label class="todo-list__label">Pay Bills</label>
-            <input type="text" class="incomplete-todo__input">
-            <button class="incomplete-todo__edit-button edit todo-button">Edit</button>
-            <button class="incomplete-todo__delete-button delete todo-button">
-               <img src="../assets/remove.svg" alt="Pictyre button remove todo" class="close-btn-img">
-            </button>
-         </li>
+        <li>
+          <input type="checkbox" class="complit-todo">
+          <label class="todo-list__label">Pay Bills</label>
+          <input type="text" class="incomplete-todo__input">
+          <button class="incomplete-todo__edit-button edit todo-button">Edit</button>
+          <button class="incomplete-todo__delete-button delete todo-button">
+            <img src="../assets/remove.svg" alt="Pictyre button remove todo" class="close-btn-img">
+          </button>
+        </li>
 
-         <li class="edit-mode">
-            <input type="checkbox" class="complit-todo">
-            <label class="todo-list__label">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="edit-mode__input">
-            <button class="edit-mode__edit-button edit todo-button">Save</button>
-            <button class="edit-mode__delete-button delete todo-button">
-               <img src="../assets/remove.svg" alt="Pictyre button remove todo" class="close-btn-img">
-            </button>
-         </li>
-      </ul>
+        <li class="edit-mode">
+          <input type="checkbox" class="complit-todo">
+          <label class="todo-list__label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="edit-mode__input">
+          <button class="edit-mode__edit-button edit todo-button">Save</button>
+          <button class="edit-mode__delete-button delete todo-button">
+            <img src="../assets/remove.svg" alt="Pictyre button remove todo" class="close-btn-img">
+          </button>
+        </li>
+      </ul>  
 
-      <h3 class="todo-title">Completed</h3>
+      <h3 class="todo-title">Completed</h3>  
 
       <ul class="completed-tasks">
-         <li>
-            <input type="checkbox" checked class="complit-todo">
-            <label class="todo-list__label">See the Doctor</label>
-            <input type="text" class="completed-tasks__input">
-            <button class="completed-tasks__edit-button edit todo-button">Edit</button>
-            <button class="completed-tasks__delete-button delete todo-button">
-               <img src="../assets/remove.svg" alt="Pictyre button remove todo" class="close-btn-img">
-            </button>
-         </li>
+        <li>
+          <input type="checkbox" checked class="complit-todo">
+          <label class="todo-list__label">See the Doctor</label>
+          <input type="text" class="completed-tasks__input">
+          <button class="completed-tasks__edit-button edit todo-button">Edit</button>
+          <button class="completed-tasks__delete-button delete todo-button">
+            <img src="../assets/remove.svg" alt="Pictyre button remove todo" class="close-btn-img">
+          </button>
+        </li>
       </ul>
-   </article>
+  </article>
 
-   <script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
